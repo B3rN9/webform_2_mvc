@@ -11,6 +11,7 @@ namespace ComicBookGallery.Data
         {
             new ComicBook()
             {
+                Id = 1,
                 SeriesTitle = "The Amazing Spider-Man",
                 IssueNumber = 700,
                 DescriptionHtml = "<p>Final issue! Witness as <strong>Peter Parker</strong> leaves this world :(</p>",
@@ -26,6 +27,7 @@ namespace ComicBookGallery.Data
 
             new ComicBook()
             {
+                Id = 2,
                 SeriesTitle = "The Amazing Spider-Man",
                 IssueNumber = 657,
                 DescriptionHtml = "<p><strong>FF: THREE TIE IN.</strong> Peter Parker visits the Future Foundation HQ</p>",
@@ -41,6 +43,7 @@ namespace ComicBookGallery.Data
 
             new ComicBook()
             {
+                Id = 3,
                 SeriesTitle = "Bone",
                 IssueNumber = 50,
                 DescriptionHtml = "<p>The Dungeon and the Parapet Part 1</p>",
