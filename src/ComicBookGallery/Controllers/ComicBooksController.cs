@@ -11,7 +11,6 @@ namespace ComicBookGallery.Controllers
     {
         public ActionResult Detail()
         {
-
             var comicBook = new ComicBook()
             {
                 SeriesTitle = "The Amazing Spider-Man",
@@ -25,7 +24,7 @@ namespace ComicBookGallery.Controllers
                     new Artist() { Name = "Edgar Delgado", Role = "Colors" },
                     new Artist() { Name = "Chris Eliopoulus", Role = "Letters" }
                 }
-        };
+            };
 
             return View(comicBook);
         }
